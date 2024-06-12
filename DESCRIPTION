@@ -1,13 +1,19 @@
 Package: accountingToolsR
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Title: Accounting and Financial Reporting Tools
+Version: 0.0.0.9000
+Authors@R: 
+    person("Elizabeth", "Stanny", , "stanny@sonoma.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7580-9427"))
+Description: Provides a suite of tools for bookkeeping, financial reporting, 
+    and modeling for private companies. This package includes functions for 
+    recording transactions, defining and managing the chart of accounts, 
+    generating financial statements, making adjusting and closing entries, 
+    and visualizing financial performance. Built on the tidyverse ecosystem 
+    for efficient data manipulation and analysis.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/elizabethst/accountingToolsR
 BugReports: https://github.com/elizabethst/accountingToolsR/issues
+RoxygenNote: 7.3.1
